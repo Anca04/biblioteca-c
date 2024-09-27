@@ -1,0 +1,25 @@
+Pentru biblioteca:
+
+Citesc cartile cu ajutorul functiei ADD_BOOK, unde am folosit fgets, am alocat 
+unde a fost necesar si am folosit getchar() pentru a obtine o citire corecta.
+
+Functia REPLACE inlocuieste WORD1 cu WORD2 prin comparare si adaugare la 
+descriere.
+
+Functia SEARCH contine 2 functii, una pentru titlu, autor si una pentru an. 
+Din nou, compar, iar apoi ma folosesc de functia qsort din biblioteca stdlib 
+pentru a le sorta crescator in functie de ID.
+
+Functia ENCODE cauta litera, retin numarul de repetari, apoi creez descrierea 
+noua si transfom in baza 16 numarul de aparitii. Algoritmul de transformare in 
+baza 16 presupune impartirea la 16, unde obtin un rest, iar apoi verific in ce 
+caz ma aflu(A, B, C, D, E, F sau cazul default unde convertesc la char). 
+Apelez functia reverse pentru a inversa descrierea.
+
+Functia afisare afiseaza cartile, am folosit doua variabile afisareFinala si 
+afisareSearch pentru a adauga new line cand este nevoie.
+
+Comenzile le-am citit de la tastatura, am testat ce comanda citesc si am 
+apelat functiile aferente. Am folosit atoi pentru convertirea de la string 
+la intreg pentru a extrage numerele.
+
